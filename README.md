@@ -1,76 +1,66 @@
+# Projeto de Gerenciamento de Tarefas
 
-Este é o README para o projeto "Gerenciador de Tarefas". 
+Este é um projeto de gerenciamento de tarefas que permite aos usuários criar, acompanhar e concluir tarefas de forma eficiente.
 
-  
+## Ambiente de Desenvolvimento
 
-Aplicação 
+O projeto foi desenvolvido no seguinte ambiente:
 
-  
+- Sistema Operacional: Windows 10
+- IDE: Visual Studio Code
+- Servidor: Node.js versão 12.18.3
 
-O "Gerenciador de Tarefas " é um software desenvolvido para permitir aos usuários criar, visualizar, atualizar e excluir tarefas em uma lista. Ele foi projetado para ajudar os usuários a organizarem suas tarefas diárias, lembrar prazos importantes e acompanhar o progresso das atividades. 
+## Tecnologias Utilizadas
 
-  
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Objetivo 
+- Linguagem de Programação: JavaScript
+- Framework: Express.js
+- Banco de Dados: MongoDB
 
-  
+## Instalação e Execução
 
-O objetivo principal do "Gerenciador de Tarefas Básico" é oferecer uma interface simples e intuitiva para o gerenciamento eficiente de tarefas. Através desta aplicação, os usuários podem: 
+Siga as etapas abaixo para instalar e executar a aplicação:
 
-  
+1. Clone o repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+2. Acesse o diretório do projeto: `cd nome-do-repositorio`
+3. Instale as dependências: `npm install`
+4. Inicie a aplicação: `npm start`
+5. Acesse a aplicação no navegador: `http://localhost:3000`
 
-- Criar novas tarefas, adicionando informações como título, descrição e prazo. 
+## Requisitos de Sistema
 
-- Visualizar a lista completa de tarefas, exibindo detalhes como título, descrição e prazo. 
+Certifique-se de que o seu sistema atende aos seguintes requisitos:
 
-- Atualizar as informações de uma tarefa existente, permitindo editar o título, descrição e prazo. 
+- Node.js versão 12 ou superior instalado
+- MongoDB instalado e em execução
 
-- Excluir tarefas da lista quando concluídas ou não necessárias. 
+## Contribuição
 
- 
- 
+Se você deseja contribuir para este projeto, siga as etapas abaixo:
 
-Tecnologias Utilizadas 
+1. Faça um fork deste repositório
+2. Crie uma branch para sua feature: `git checkout -b minha-feature`
+3. Faça as alterações necessárias e commit: `git commit -m 'Minha nova feature'`
+4. Envie as alterações para o repositório remoto: `git push origin minha-feature`
+5. Abra um pull request para revisão
 
-  
+## Práticas de Código Limpo
 
-O "Gerenciador de Tarefas Básico" foi desenvolvido utilizando as seguintes tecnologias: 
+Neste projeto, aplicamos práticas de código limpo, como:
 
-  
+- Nomenclatura de variáveis e funções significativas
+- Divisão do código em módulos e funções reutilizáveis
+- Indentação adequada e formatação consistente
 
-- HTML: Para estruturar a interface do usuário. 
+## Testes Automatizados
 
-- CSS: Para estilizar e tornar a aplicação visualmente atraente. 
+A aplicação possui testes automatizados para garantir seu funcionamento correto. Utilizamos a seguinte estrutura de testes:
 
-- JavaScript: Para adicionar interatividade à aplicação e lidar com a lógica do lado do cliente. 
+- Framework de Testes: Jest
+- Testes Unitários: Testamos cada função e módulo individualmente para verificar se eles retornam os resultados esperados.
 
-- Node.js: Para executar o código JavaScript no servidor (se necessário). 
+## Padrão de Projeto de Software
 
-- Banco de Dados: Ainda Não Definido. 
-
-  
-
- 
-
-Uso 
-  
-
-Para utilizar o "Gerenciador de Tarefas Básico", siga as instruções abaixo: 
-
-  
-
-1. Abra o arquivo `index.html` em seu navegador web. 
-
-2. Na interface do usuário, você verá uma lista de tarefas existentes, se houver. Caso contrário, a lista estará vazia. 
-
-3. Para adicionar uma nova tarefa, preencha os campos de título, descrição e prazo e clique no botão "Adicionar Tarefa". 
-
-4. Para atualizar uma tarefa existente, clique no botão de edição correspondente à tarefa desejada e faça as alterações necessárias nos campos. 
-
-5. Para excluir uma tarefa, clique no botão de exclusão correspondente à tarefa desejada. 
-
-6. Você pode visualizar as tarefas atualizadas na lista em tempo real. 
-
-
-
+Neste projeto, aplicamos o padrão de projeto Model-View-Controller (MVC) para separar as preocupações e garantir a manutenibilidade e escalabilidade do código.
 
